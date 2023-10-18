@@ -1,0 +1,108 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.tabla-clasificacion {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tabla-clasificacion th, .tabla-clasificacion td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.tabla-clasificacion th {
+    background-color: #333;
+    color: #fff;
+}
+
+.tabla-clasificacion tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilos generales para la sección de clasificación */
+#clasificacion {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Estilos para la tabla de clasificación */
+.tabla-clasificacion {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-clasificacion th, .tabla-clasificacion td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabla-clasificacion th {
+    background-color: #333;
+    color: #fff;
+}
+
+.tabla-clasificacion tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilo para resaltar el equipo líder */
+.tabla-clasificacion tr:first-child {
+    font-weight: bold;
+    background-color: #ffc107; /* Amarillo */
+}
+
+/* Estilo para resaltar los equipos en el top 3 */
+.tabla-clasificacion tr:nth-child(2), .tabla-clasificacion tr:nth-child(3) {
+    background-color: #4CAF50; /* Verde */
+    color: #fff;
+}
+
