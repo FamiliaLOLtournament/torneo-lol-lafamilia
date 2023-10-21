@@ -142,6 +142,8 @@ section{
 section > article > div > img {
     max-width: 300px;
     max-height: 545px;
+    min-width: 300px;
+    min-height: 545px;
 }
 
 .player{
