@@ -12,7 +12,22 @@ header {
     text-align: center;
     padding: 10px;
 }
+.header-container {
+    display: flex;
+}
 
+header :hover{
+    color:#ffc107;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
 h1 {
     font-size: 36px;
 }
@@ -106,3 +121,69 @@ h2 {
     color: #fff;
 }
 
+section{
+    margin: 100px;
+}
+
+#red-team{
+    margin-top: 50px;
+    display:flex;
+    animation-duration: 8s;
+    animation-name: slideimparin;
+}
+
+#blue-team{
+    margin-top: 100px;
+    display:flex;
+    animation-duration: 8s;
+    animation-name: slideparin;
+}
+
+section > article > div > img {
+    max-width: 300px;
+    max-height: 545px;
+}
+
+.player{
+    margin: 0px 20px 0px 20px;
+}
+
+.identifier-player{
+    height: 90px;
+    margin-top: -37%;
+    text-align: center;
+    width: 100%;
+    z-index: 3;
+    color: black !important;
+    backdrop-filter: blur(10px);
+}
+
+h3{
+    padding-top: 7px;
+    font-size: 20px;
+    color: #BE2020;
+}
+
+@keyframes slideimparin {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+
+@keyframes slideparin {
+    from {
+      margin-left: -100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
